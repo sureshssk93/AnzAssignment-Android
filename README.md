@@ -1,42 +1,41 @@
 A modern Android application built with Jetpack Compose that demonstrates clean architecture principles and modern Android development for ANZ Coding Assignment .
 
 ## App Demo
-![App Demo](app_demo_video.gif)
+![App Demo]([App_demo.gif])
 
 ### Tech Stack Used
 
-- **Kotlin** - Because we love its null safety and coroutines
-- **Jetpack Compose** - For building beautiful, native Android UI
-- **Material Design** - To make everything look polished and professional
-- **Android SDK 34** - Keeping it up-to-date
-- **Java 17** - For all the modern Java features we need
+- **Kotlin** - Null safety and coroutines
+- **Jetpack Compose** - Android Native Declarative UI  
+- **Material Design** - Android Material Design
+- **Java 17** - Java Compiling
 
 ### Architecture
 We followed some solid architecture patterns:
-- **Clean Architecture** - Keeping things organized and maintainable
-- **MVVM** - Because separation of concerns is important
-- **Repository Pattern** - For handling data like pros
-- **Hilt** - Making dependency injection a breeze
+- **Clean Architecture** - Structured Based on SOLID Principle
+- **MVVM** - Model View VideModel Architecture
+- **Repository Pattern** - Data Source Interface
+- **Hilt** - Dependency Injection
 
-### LibrariesUsed 
-- **Hilt** - For dependency injection
-- **Coil** - Loading images smoothly
+### Libraries Used 
+- **Hilt** - For Dependency injection
+- **Coil** - Loading images 
 - **Room** - Local database for offline support
-- **Coroutines** - Handling async operations elegantly
+- **Coroutines** - Handling async operations 
 - **StateFlow** - Managing state reactively
-- **Navigation Compose** - Smooth navigation between screens
-- **Material** - Beautiful UI components
+- **Navigation Compose** - Navigation between screens
+- **Material** - UI components
 - **Lifecycle Components** - Managing the app lifecycle
 
 ### Kotlin Features
 - **Sealed Classes**
-  - Perfect for handling different states (Loading, Success, Error)
+  - Perfect for handling different states with when (Loading, Success, Error)
   - Type-safe state management in ViewModels
-  - Exhaustive when expressions - no surprises!
+  
 - **StateFlow**
-  - Keeping our UI in sync with data
+  - Keeping UI in sync with data
   - Hot streams for real-time updates
-  - Lifecycle-aware, because we care about battery life
+  - Lifecycle-aware
 
 ## Project Structure
 ```
@@ -56,12 +55,12 @@ app/
 ```
 
 ## Completed Tasks
-- Shows a list of users with their info
+- Shows a list of users with their details
 - Displays detailed user profiles
-- Works offline (because we're thoughtful like that)
-- Looks modern and clean
-- Handles images efficiently
-- Manages errors gracefully
+- Works offline 
+- Modern Ui with LazyColumn and clean
+- Handled images using coil
+- Managed errors gracefully
 
 ## Done with Assumption
 1. **API**
@@ -85,12 +84,11 @@ app/
 
 ## Issues Faced
 1. **Data Mismatch**
-   - Sometimes the user details don't match the list view
-   - Photos and names might be different
-   - We're working on fixing this!
+   - User details don't match with its id mapped in User List
+   - Photo and other info might be different in User Details Screen
 
 ## Improvments 
-1. **Features We Want to Add**
+1. **Features**
    - Search functionality
    - Filtering and sorting
    - Pull-to-refresh
@@ -135,6 +133,9 @@ app/
    - SSL pinning
    - Secure storage
    - API key management
+  
+Complete App Flow
+![App Demo](app_demo_video.gif)
 
 ## Requirements
 - Android Studio Hedgehog | 2023.1.1+
