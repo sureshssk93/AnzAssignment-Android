@@ -1,12 +1,7 @@
 A modern Android application built with Jetpack Compose that demonstrates clean architecture principles and modern Android development for ANZ Coding Assignment .
 
 ## App Demo
-<p >
-  <video width="320" height="240" controls>
-    <source src="app_demo_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+![App Demo](app_demo.gif)
 
 ### Tech Stack Used
 
