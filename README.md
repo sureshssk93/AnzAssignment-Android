@@ -1,7 +1,7 @@
 A modern Android application built with Jetpack Compose that demonstrates clean architecture principles and modern Android development for ANZ Coding Assignment .
 
 ## App Demo
-[App Demo] (App_demo.gif)
+![App Demo](App_demo.gif)
 
 ### Tech Stack Used
 
