@@ -11,7 +11,6 @@ A modern Android application built with Jetpack Compose that demonstrates clean 
 - **Java 17** - Java Compiling
 
 ### Architecture
-We followed some solid architecture patterns:
 - **Clean Architecture** - Structured Based on SOLID Principle
 - **MVVM** - Model View VideModel Architecture
 - **Repository Pattern** - Data Source Interface
