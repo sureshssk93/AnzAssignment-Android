@@ -1,5 +1,13 @@
 A modern Android application built with Jetpack Compose that demonstrates clean architecture principles and modern Android development for ANZ Coding Assignment .
 
+## App Demo
+<p >
+  <video width="320" height="240" controls>
+    <source src="app_demo_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 ### Tech Stack Used
 
 - **Kotlin** - Because we love its null safety and coroutines
@@ -61,8 +69,10 @@ app/
 - Manages errors gracefully
 
 ## Done with Assumption
-1. **API Stuff**
-   - There's a REST API out there somewhere
+1. **API**
+   - REST API Base URL : https://fake-json-api.mock.beeceptor.com/
+   - Get User List : https://fake-json-api.mock.beeceptor.com/users/
+   - Get User By ID : https://fake-json-api.mock.beeceptor.com/users/{userId}
    - It returns user data in a specific format
 
 2. **Data Structure**
